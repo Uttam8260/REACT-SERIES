@@ -1,0 +1,139 @@
+.cart-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.cart-container {
+  flex: 1;
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.cart-container h2 {
+  text-align: center;
+  color: #003366;
+  margin: 20px 0 10px;
+}
+
+.cart-actions {
+  position: sticky;
+  top: 70px;
+  background: #fff;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0 20px;
+  gap: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-back-button,
+.add-more-button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cart-back-button {
+  background: #003366;
+  color: white;
+}
+
+.cart-back-button:hover {
+  background: #002244;
+}
+
+.add-more-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.add-more-button:hover {
+  background-color: #0056b3;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.cart-item-details h3 {
+  margin: 0 0 5px;
+  font-size: 18px;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.remove-btn:hover {
+  background-color: #b52a34;
+}
+
+.cart-total-section {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.cart-total-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.pay-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.pay-button:hover {
+  background: #218838;
+}
+
+.empty-cart {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  margin-top: 40px;
+}

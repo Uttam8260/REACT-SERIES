@@ -1,0 +1,122 @@
+/* .user-details-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-details-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .user-details-container input,
+  .user-details-container textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .user-details-container textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .user-details-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .user-details-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -5px;
+  } */
+
+
+  .user-details-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    border-radius: 15px;
+  }
+  
+  .user-details-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .user-details-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003366;
+  }
+  
+  .user-details-form input,
+  .user-details-form textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit-btn, .back-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-btn {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .back-btn:hover {
+    background-color: #545b62;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    position: sticky;
+    bottom: 0;
+  }
+  

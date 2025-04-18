@@ -1,0 +1,34 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 100;
+}
+
+.cart-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.cart-container {
+  flex: 1;
+  overflow-y: auto;
+}
