@@ -4,8 +4,9 @@ import App from './App.jsx'
 //import Chai from './Chai.jsx'
 import './index.css';
 import Tailwindtest from './Taliwindtest.jsx'
+import BgChanger from './bgChanger.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Tailwindtest />
+    <BgChanger />
   </StrictMode>,
 )
