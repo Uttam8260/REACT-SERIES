@@ -5,8 +5,9 @@ import App from './App.jsx'
 import './index.css';
 import Tailwindtest from './Taliwindtest.jsx'
 import BgChanger from './bgChanger.jsx';
+import PwGenertor from './PwGenerator.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BgChanger />
+    <PwGenertor />
   </StrictMode>,
 )
