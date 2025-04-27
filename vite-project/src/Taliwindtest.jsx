@@ -54,4 +54,4 @@ function Tailwindtest(){
         </>
     )
 }
-export default Tailwindtest
+export default Tailwindtest 

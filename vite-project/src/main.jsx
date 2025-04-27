@@ -6,8 +6,9 @@ import './index.css';
 import Tailwindtest from './Taliwindtest.jsx'
 import BgChanger from './bgChanger.jsx';
 import PwGenertor from './PwGenerator.jsx';
+import CurrencyCalc from './CurrencyCalc.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <PwGenertor />
+    <CurrencyCalc />
   </StrictMode>,
 )
