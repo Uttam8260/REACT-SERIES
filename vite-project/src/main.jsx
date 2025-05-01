@@ -9,6 +9,7 @@ import PwGenertor from './PwGenerator.jsx';
 import CurrencyCalc from './CurrencyCalc.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <CurrencyCalc />
+    {/* <CurrencyCalc /> */}
+    <BgChanger />
   </StrictMode>,
 )
